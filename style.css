@@ -3,10 +3,9 @@ html {
 }
 
 body {
-    background-image: url(assets/bg.jpg);
-    background-repeat: repeat;
-    background-size: 400px 400px;
+    background-color: white;
     margin: 0px;
+    margin-top: 30px;
     font-family:
         system-ui,
         -apple-system,
@@ -22,14 +21,22 @@ body {
     height: 100%;
 }
 
-header,
 footer {
-    background-color: white;
+    background-color: rgb(242, 242, 242);
     margin: 20px;
     padding: 10px;
     color: dimgray;
     border-radius: 15px;
-    border: solid 1px black;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    color: dimgray;
+    border-bottom: gray solid 1px;
 }
 
 #main {
@@ -50,29 +57,43 @@ footer {
 #profile-container {
     display: flex;
     align-items: center;
+    width: fit-content;
+    padding: 10px;
+    transition-duration: 0.2s;
+}
+
+#profile-container:hover {
+    background-color: rgb(242, 242, 242);
 }
 
 #left {
     width: 400px;
-    background: white;
+    background: rgb(242, 242, 242);
     margin: 20px;
     height: 600px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px black;
 }
 
 #right {
     width: 500px;
-    background: white;
+    background: rgb(242, 242, 242);
     margin: 20px;
     height: 600px;
     border-radius: 15px;
-    border: solid 1px black;
 }
 
 .large-profile {
     padding: 30px;
+}
+
+#hummusphere-title {
+    margin: 0px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none !important;
 }

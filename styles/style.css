@@ -1,0 +1,142 @@
+:root {
+    --text-color: rgb(20, 20, 20);
+    --border-color: #c3c7cb;
+    --header-footer-color: rgba(248, 248, 250);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+    margin-top: 70px;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: var(--header-footer-color);
+    margin-top: auto;
+    padding: 10px;
+    color: var(--text-color);
+    border-top: 1px solid var(--border-color);
+    height: 170px;
+}
+
+header {
+    background-color: var(--header-footer-color);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    color: var(--text-color);
+    border-bottom: var(--border-color) solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+}
+
+#profile-picture {
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#profile-container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    transition-duration: 0.2s;
+    height: 30px;
+}
+
+#profile-container:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+#left {
+    width: 400px;
+    background: white;
+    margin: 20px;
+    height: 700px;
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#right {
+    width: 700px;
+    background: white;
+    margin: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-profile {
+    padding: 30px;
+}
+
+#hummusphere-title {
+    margin: 0px;
+    color: black;
+    text-decoration: none !important;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+.project {
+    border: solid 1px var(--border-color);
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.links {
+    padding: 17.5px;
+    height: 15px;
+}
+
+.link-holder {
+    display: flex;
+    list-style-type: none;
+}
+
+.links:hover {
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
+}

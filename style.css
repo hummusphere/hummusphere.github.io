@@ -44,6 +44,9 @@ header {
     top: 0px;
     color: var(--text-color);
     border-bottom: var(--border-color) solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #main {
@@ -119,4 +122,19 @@ a:link {
     height: 150px;
     margin: 20px;
     border-radius: 15px;
+}
+
+.links {
+    padding: 17.5px;
+    height: 15px;
+}
+
+.link-holder {
+    display: flex;
+    list-style-type: none;
+}
+
+.links:hover {
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
 }

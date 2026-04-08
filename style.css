@@ -1,3 +1,9 @@
+:root {
+    --text-color: rgb(20, 20, 20);
+    --border-color: #c3c7cb;
+    --header-footer-color: rgba(248, 248, 250);
+}
+
 html {
     height: 100%;
 }
@@ -5,7 +11,7 @@ html {
 body {
     background-color: white;
     margin: 0px;
-    margin-top: 30px;
+    margin-top: 70px;
     font-family:
         system-ui,
         -apple-system,
@@ -22,21 +28,22 @@ body {
 }
 
 footer {
-    background-color: rgb(242, 242, 242);
-    margin: 20px;
+    background-color: var(--header-footer-color);
+    margin-top: 50px;
     padding: 10px;
-    color: dimgray;
-    border-radius: 15px;
+    color: var(--text-color);
+    border-top: 1px solid var(--border-color);
+    height: 170px;
 }
 
 header {
-    background-color: white;
+    background-color: var(--header-footer-color);
     width: 100%;
     height: 50px;
     position: fixed;
     top: 0px;
-    color: dimgray;
-    border-bottom: gray solid 1px;
+    color: var(--text-color);
+    border-bottom: var(--border-color) solid 1px;
 }
 
 #main {
@@ -60,6 +67,7 @@ header {
     width: fit-content;
     padding: 10px;
     transition-duration: 0.2s;
+    height: 30px;
 }
 
 #profile-container:hover {
@@ -68,9 +76,10 @@ header {
 
 #left {
     width: 400px;
-    background: rgb(242, 242, 242);
+    background: white;
     margin: 20px;
-    height: 600px;
+    height: 700px;
+    border: 1px solid var(--border-color);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -78,11 +87,16 @@ header {
 }
 
 #right {
-    width: 500px;
-    background: rgb(242, 242, 242);
+    width: 700px;
+    background: white;
     margin: 20px;
-    height: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
     border-radius: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .large-profile {
@@ -92,8 +106,17 @@ header {
 #hummusphere-title {
     margin: 0px;
     color: black;
+    text-decoration: none !important;
 }
 
 a:link {
     text-decoration: none !important;
+}
+
+.project {
+    border: solid 1px var(--border-color);
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 15px;
 }

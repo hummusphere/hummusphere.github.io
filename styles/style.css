@@ -195,3 +195,31 @@ a:link {
     font-weight: bold;
     color: black;
 }
+
+#game-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1300px;
+    justify-content: center;
+}
+
+.game {
+    width: 500px;
+    height: 400px;
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-preview {
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.game-description,
+.game-header {
+    margin: 10px;
+}

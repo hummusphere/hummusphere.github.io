@@ -194,6 +194,7 @@ a:link {
 .back-to-blogs {
     font-weight: bold;
     color: black;
+    display: none;
 }
 
 #game-container {

@@ -1,28 +1,35 @@
-function back_to_blog_list(blog, blog_list, title, content, back) {
+function back_to_blog_list(blog, blog_list, title, content, back, date) {
   history.pushState(
     "",
     document.title,
     window.location.pathname + window.location.search,
   );
   title.innerHTML = "Blog";
+  title.style.width = "";
   content.innerHTML = "";
   blog_list.style.display = "block";
   back.style.display = "none";
   document.title = "hummusphere - Blog";
+  date.style.display = "none";
 }
 
 function update_blog_content(id, blog, blog_list) {
   const title = document.getElementById("blog-header");
   const content = document.getElementById("blog-content");
   const back = document.getElementsByClassName("back-to-blogs")[0];
+  const date = document.getElementById("blog-date");
 
   location.hash = blog.id;
   title.innerHTML = blog.title;
+  title.style.width = "700px";
   content.innerHTML = blog.content;
   blog_list.style.display = "none";
+  date.innerHTML = blog.date;
+  date.style.display = "block";
   back.style.display = "block";
   document.title = "hummusphere - " + blog.title;
-  back.onclick = () => back_to_blog_list(blog, blog_list, title, content, back);
+  back.onclick = () =>
+    back_to_blog_list(blog, blog_list, title, content, back, date);
 }
 
 async function fetch_blog_content() {

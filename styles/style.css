@@ -2,7 +2,7 @@
     --text-color: rgb(50, 50, 50);
     --border-color: #c3c7cb;
     --header-footer-color: rgba(248, 248, 250);
-    --link-color: limegreen;
+    --link-color: #2fa800;
 }
 
 html {
@@ -92,11 +92,11 @@ header {
 .profile-links {
     color: var(--link-color);
     font-weight: bold;
+    transition: color 0.2s;
 }
 
 .profile-links:hover {
     color: black;
-    transition: 0.2s;
 }
 
 #left {
@@ -229,29 +229,59 @@ code {
     display: none;
 }
 
+#blog-header,
+#blog-date {
+    margin: 5px;
+}
+
+#blog-date {
+    width: 700px;
+    color: rgb(170, 170, 170);
+}
+
+.blog-important {
+    background-color: #f5fef0;
+    border: 1px solid var(--link-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.blog-important-title {
+    font-weight: bold;
+    color: var(--link-color);
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.blog-important-text {
+    margin: 5px;
+}
+
+#blog-header,
+h1,
+h3 {
+    color: black;
+}
+
 .blog-image {
     margin: 10px auto;
 }
 
 .blog-sub-header {
     margin: 10px 0px;
-}
-
-#game-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 1300px;
-    justify-content: center;
+    color: black;
 }
 
 .blog-link {
     font-weight: bold;
     color: var(--link-color);
     transition: 0.2s;
+    text-align: center;
 }
 
-.blog-link:hover {
+.blog-link:hover,
+.blog-external:hover {
     color: black;
 }
 
@@ -259,6 +289,12 @@ code {
     border-left: 4px solid var(--link-color);
     padding-left: 12px;
     margin: 10px 0px;
+}
+
+.blog-external {
+    width: 15px;
+    height: 15px;
+    margin: auto 0px;
 }
 
 /* GAMES */
@@ -281,4 +317,12 @@ code {
 .game-description,
 .game-header {
     margin: 10px;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1300px;
+    justify-content: center;
 }

@@ -1,7 +1,8 @@
 :root {
-    --text-color: rgb(20, 20, 20);
+    --text-color: rgb(50, 50, 50);
     --border-color: #c3c7cb;
     --header-footer-color: rgba(248, 248, 250);
+    --link-color: limegreen;
 }
 
 html {
@@ -10,6 +11,7 @@ html {
 
 body {
     background-color: white;
+    color: var(--text-color);
     margin: 0px;
     margin-top: 70px;
     font-family:
@@ -40,6 +42,11 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.footer-links {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 header {
@@ -137,7 +144,7 @@ a:link {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px;
-    color: #0969da;
+    color: black;
     font-weight: bold;
     cursor: pointer;
 }
@@ -172,6 +179,17 @@ a:link {
     height: fit-content;
 }
 
+code {
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.9em;
+    background: #f4f4f5;
+    margin: 0px 2px;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+
+/* BLOG */
+
 #blog-list {
     width: 1000px;
 }
@@ -187,20 +205,26 @@ a:link {
     cursor: pointer;
 }
 
-.footer-links {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
 #blog-content {
     width: 700px;
     padding: 20px;
+    color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
 }
 
 .back-to-blogs {
     font-weight: bold;
     color: black;
     display: none;
+}
+
+.blog-image {
+    margin: 10px auto;
+}
+
+.blog-sub-header {
+    margin: 10px 0px;
 }
 
 #game-container {
@@ -210,6 +234,18 @@ a:link {
     width: 1300px;
     justify-content: center;
 }
+
+.blog-link {
+    font-weight: bold;
+    color: var(--link-color);
+    transition: 0.2s;
+}
+
+.blog-link:hover {
+    color: black;
+}
+
+/* GAMES */
 
 .game {
     width: 500px;

@@ -89,6 +89,16 @@ header {
     background-color: rgb(242, 242, 242);
 }
 
+.profile-links {
+    color: var(--link-color);
+    font-weight: bold;
+}
+
+.profile-links:hover {
+    color: black;
+    transition: 0.2s;
+}
+
 #left {
     width: 400px;
     background: white;
@@ -243,6 +253,12 @@ code {
 
 .blog-link:hover {
     color: black;
+}
+
+.blog-callout {
+    border-left: 4px solid var(--link-color);
+    padding-left: 12px;
+    margin: 10px 0px;
 }
 
 /* GAMES */

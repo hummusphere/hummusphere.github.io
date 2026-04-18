@@ -2,19 +2,19 @@
   {
     "id": 1003,
     "title": "New Blog Features",
-    "content": "<p> I created this post to experiement and show off all the cool things I can do on this blog. </p><h3 class=\"blog-sub-header\"> I can now use headers, pretty cool</h3> <p> I can use both <code>inline text</code> and </p> <code> this kind of text </code> <p> I can also use links inside of my text like <a class=\"blog-link\" href=\"https://github.com/hummusphere\">wsg</a>. My favorite part is that I can now use images. </p> <img class=\"blog-image\" src=\"https://i.pinimg.com/474x/9d/40/4f/9d404f1a2f8ec68879aacac3c3c95f50.jpg\">",
+    "content": "<div class=\"blog-callout\"> I created this post to experiement and show off all the cool things I can do on this blog. Right now I am using a callout. </div><h3 class=\"blog-sub-header\"> I can now use headers, pretty cool</h3> <p> I can use both <code>inline text</code> and </p> <code> this kind of text </code> <p> I can also use links inside of my text like <a class=\"blog-link\" href=\"https://github.com/hummusphere\">wsg</a>. My favorite part is that I can now use images. </p> <img class=\"blog-image\" src=\"https://i.pinimg.com/474x/9d/40/4f/9d404f1a2f8ec68879aacac3c3c95f50.jpg\">",
     "date": "4/18/26"
   },
   {
     "id": 1002,
     "title": "My Blogs Are Now Loaded Dynamically",
-    "content": "<p> All of these blog pages are now loaded dynamically with Javascript. This is the first time that I have used Js on this website. I can't lie, I created this post to test out the Js. It's nice because I can now just use one singular json file and not have to worry about creating a HTML file for every post. There are still a few things that need to be tweaked but its working for the most part. Im pretty happy with how this turned out. Maybe in the future I will add images and inline code stuff. </p> </br> <p> Thanks for reading I guess </p>",
+    "content": "<p> All of these blog pages are now loaded dynamically with Javascript. This is the first time that I have used Js on this website. I can't lie, I created this post just to test out the Js. It's nice because now I can just use one singular json file and not have to worry about creating a HTML file for every post. There are still a few things that need to be worked out but it's fine for the most part. I'm pretty happy with how this turned out. The next step for me will be to add images, headers, and code blocks into the blog system. </p> </br> <p> Thank you for reading. </p>",
     "date": "4/14/26"
   },
   {
     "id": 1001,
     "title": "First/Test Blog Post",
-    "content": "<p> I have no idea what I'm doing on this website. I'm not really sure how to manage a website but I guess I learn as I go. I was hoping to use php or next.js to make this process easier but I think Github only allows static websites. So for now I'll just stick to the basics, but in the future I want to load content with js rather than making an html page every time I need to display something. I just need a place to show off my work and develop website making skills. Is this a good test/first post? I really don't know. </p><br><p> Thanks for reading I guess </p>",
+    "content": "<p> I'm not really sure how to manage a website but I guess I’ll learn as I go. I created this website because I need a place to display my work and develop my website making skills. Every developer in my opinion should have a website. I’m also going to work on this blog to try and improve my writing skills. I have never really been a great writer so maybe this blog can change that. I’ll update this blog when I feel like something interesting has happened. </p> <br> <p> For this blog system, I heard that php and next.js make this process easier, but I've been told that Github only allows static websites. So for now, I'll just stick to the basics. I’m going to work on loading content with Javascript rather than making an HTML page every time I need to display something. It will be much easier to maintain. </p> <br><p> Thank you for reading. </p>",
     "date": "4/9/26"
   }
 ]

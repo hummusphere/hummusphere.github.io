@@ -83,6 +83,7 @@ header {
     width: fit-content;
     padding: 10px;
     height: 30px;
+    transition: background 0.2s;
 }
 
 #profile-container:hover {
@@ -93,6 +94,7 @@ header {
     color: var(--link-color);
     font-weight: bold;
     transition: color 0.2s;
+    text-decoration: underline;
 }
 
 .profile-links:hover {
@@ -108,7 +110,6 @@ header {
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #right {
@@ -126,6 +127,8 @@ header {
 
 .large-profile {
     padding: 30px;
+    margin: 0px auto;
+    border-radius: 100%;
 }
 
 #hummusphere-title {
@@ -134,7 +137,8 @@ header {
     text-decoration: none !important;
 }
 
-a:link {
+.link-holder > a,
+header > a {
     text-decoration: none !important;
 }
 
@@ -169,6 +173,7 @@ a:link {
     height: 15px;
     color: var(--text-color);
     text-decoration: none;
+    transition: background 0.2s;
 }
 
 .link-holder {
@@ -210,9 +215,20 @@ code {
     width: fit-content;
 }
 
-.blog-item:hover,
 .back-to-blogs:hover {
     cursor: pointer;
+}
+
+.blog-list-a-tag {
+    font-weight: bold;
+    color: var(--link-color);
+    transition: color 0.2s;
+    text-decoration: underline;
+}
+
+.blog-list-a-tag:hover {
+    cursor: pointer;
+    color: black;
 }
 
 #blog-content {
@@ -278,6 +294,7 @@ h3 {
     color: var(--link-color);
     transition: 0.2s;
     text-align: center;
+    text-decoration: underline;
 }
 
 .blog-link:hover,

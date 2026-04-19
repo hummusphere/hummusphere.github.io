@@ -45,7 +45,7 @@ async function fetch_blog_content() {
 
     blog_item.className = "blog-item";
     blog_item.innerHTML =
-      blog.date + " - " + '<a class="blog-list-a-tag">' + blog.title + "</a>";
+      blog.date + " - " + '<a class="blog-list-a-tag">' + blog.title;
     blog_item.onclick = () => update_blog_content(blog.id, blog, blog_list);
     blog_list.appendChild(blog_item);
   });

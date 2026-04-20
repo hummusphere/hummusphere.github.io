@@ -3,6 +3,13 @@
     --border-color: #c3c7cb;
     --header-footer-color: rgba(248, 248, 250);
     --link-color: #2fa800;
+    --bg-color: white;
+}
+
+[page-theme="dark"] {
+    --text-color: white;
+    --bg-color: black;
+    --header-footer-color: rgb(50, 50, 50);
 }
 
 html {
@@ -10,7 +17,7 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0px;
     margin-top: 70px;
@@ -103,7 +110,7 @@ header {
 
 #left {
     width: 400px;
-    background: white;
+    background: var(--bg-color);
     margin: 20px;
     height: 700px;
     border: 1px solid var(--border-color);
@@ -114,7 +121,7 @@ header {
 
 #right {
     width: 700px;
-    background: white;
+    background: var(--bg-color);
     margin: 20px;
     height: 700px;
     display: flex;
@@ -197,7 +204,8 @@ header > a {
 code {
     font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
     font-size: 0.9em;
-    background: #f4f4f5;
+    background: #eaffe7;
+    color: var(--link-color);
     margin: 0px 2px;
     padding: 0.2em 0.4em;
     border-radius: 4px;

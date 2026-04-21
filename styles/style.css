@@ -2,14 +2,19 @@
     --text-color: rgb(50, 50, 50);
     --border-color: #c3c7cb;
     --header-footer-color: rgba(248, 248, 250);
+    --header-link-hover: rgb(242, 242, 242);
+    --header-text-color: black;
     --link-color: #2fa800;
     --bg-color: white;
 }
 
 [page-theme="dark"] {
     --text-color: white;
-    --bg-color: black;
-    --header-footer-color: rgb(50, 50, 50);
+    --header-text-color: white;
+    --header-link-hover: rgb(30, 30, 30);
+    --bg-color: #0d1117;
+    --border-color: #3d444d;
+    --header-footer-color: #010409;
 }
 
 html {
@@ -81,6 +86,7 @@ header {
 
 #profile-picture {
     border-radius: 100%;
+    border: 1px solid var(--border-color);
     margin-right: 10px;
 }
 
@@ -94,7 +100,7 @@ header {
 }
 
 #profile-container:hover {
-    background-color: rgb(242, 242, 242);
+    background-color: var(--header-link-hover);
 }
 
 .profile-links {
@@ -133,14 +139,14 @@ header {
 }
 
 .large-profile {
-    padding: 30px;
-    margin: 0px auto;
+    margin: 30px auto;
+    border: 1px solid var(--border-color);
     border-radius: 100%;
 }
 
 #hummusphere-title {
     margin: 0px;
-    color: black;
+    color: var(--header-text-color);
     text-decoration: none !important;
 }
 
@@ -165,7 +171,7 @@ header > a {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px;
-    color: black;
+    color: var(--header-text-color);
     font-weight: bold;
     cursor: pointer;
 }
@@ -189,7 +195,7 @@ header > a {
 }
 
 .links:hover {
-    background-color: rgb(242, 242, 242);
+    background-color: var(--header-link-hover);
     cursor: pointer;
 }
 
@@ -285,7 +291,7 @@ code {
 #blog-header,
 h1,
 h3 {
-    color: black;
+    color: var(--header-text-color);
 }
 
 .blog-image {
@@ -294,7 +300,7 @@ h3 {
 
 .blog-sub-header {
     margin: 10px 0px;
-    color: black;
+    color: var(--header-text-color);
 }
 
 .blog-link {

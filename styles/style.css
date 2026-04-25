@@ -118,7 +118,8 @@ header {
 }
 
 #left {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     background: var(--bg-color);
     margin: 20px;
     height: 700px;
@@ -129,7 +130,8 @@ header {
 }
 
 #right {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     background: var(--bg-color);
     margin: 20px;
     height: 700px;
@@ -139,6 +141,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: fit-content;
 }
 
 .large-profile {
@@ -223,7 +226,8 @@ code {
 /* BLOG */
 
 #blog-list {
-    width: 1000px;
+    width: 100%;
+    max-width:1000px;
 }
 
 .blog-item {
@@ -249,7 +253,8 @@ code {
 }
 
 #blog-content {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     padding: 20px;
     color: var(--text-color);
     display: flex;
@@ -270,7 +275,8 @@ code {
 }
 
 #blog-date {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     color: rgb(170, 170, 170);
 }
 
@@ -360,6 +366,7 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1300px;
+    width: 100%;
+    max-width: 1300px;
     justify-content: center;
 }

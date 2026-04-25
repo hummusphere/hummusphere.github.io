@@ -21,7 +21,8 @@ function update_blog_content(id, blog, blog_list) {
 
   location.hash = blog.id;
   title.innerHTML = blog.title;
-  title.style.width = "700px";
+  title.style.width = "100%";
+  title.style.maxWidth = "700px";
   content.innerHTML = blog.content;
   blog_list.style.display = "none";
   date.innerHTML = blog.date;

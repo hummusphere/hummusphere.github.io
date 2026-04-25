@@ -62,6 +62,6 @@ async function fetch_blog_content() {
   }
 }
 
-window.onload = function () {
-  fetch_blog_content();
-};
+document.addEventListener("DOMContentLoaded", function() {
+    fetch_blog_content();
+});

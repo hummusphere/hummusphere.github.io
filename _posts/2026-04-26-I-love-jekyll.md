@@ -1,0 +1,16 @@
+---
+layout: blog-post
+title: "I Love Jekyll"
+date: 2026-04-26
+permalink: /blog/I-love-jekyll/
+---
+
+<div id="blog-content">
+    <h3 class="blog-sub-header"> An amazing discovery </h3> 
+    <p> I was thinking about updating the header and footer of this website. However, I realized that I was extremely slow and inefficient to update every single header and every single footer for every single page. I began looking around for solutions to this problem. Luckily, I found <a class="blog-link" href="https://jekyllrb.com/">Jekyll<svg class="blog-external" width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>. Jekyll is a static site generator that works natively with <a class="blog-link" href="https://docs.github.com/en/pages">GitHub Pages<svg class="blog-external" width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>. It works amazingly. I created templates for all of my pages, and I created two files, one for my header and one for my footer. Now I can load the header and footer into the template. Now all I have to do is just edit one header file and one footer file for the changes to be global. This is honestly amazing and saves me so much time. </p>
+    <p> Jekyll also comes with a blog system. I already have a <code>JavaScript</code> system, so I wasn't planning on using Jekyll, but I learned that it has some interesting perks. You can change the permalink of every single page. My pages could go from ending in<code>blog.html#1001</code> to looking like<code>/blog/why-jekyll-is-amazing</code>. In addition, when I loaded a page using the JS system, there was a brief delay before the content loaded in since I had to wait for the DOM to load in before changing anything. Using Jekyll, my pages are generated before I load them in, which solves this annoying problem. So I decided that it would be better if I switched to Jekyll. </p>
+    <p>I genuinely cannot stress how cool this is. My website feels a lot more professional using permalinks now instead of just <code>/directory/blog.html</code>. I also use less JavaScript, which is always a plus for me.</p>
+    <h3 class="blog-sub-header"> Other things going on </h3>
+    <p>I also finished up the dark mode setting. It works pretty well. I'm also about to start working on a two-week school project: creating an operating system. I'm going to be honest, I may have bit off a lot more than I can chew, but I'm still going to try and see how far I can get. In all, I'm really happy where things are going. </p>
+    <p> Thank you for reading. </p>
+</div>

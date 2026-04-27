@@ -1,0 +1,18 @@
+---
+layout: default
+title: hummusphere - Blog
+permalink: /blog/
+---
+
+        <div id="main-content">
+            <h1 id="blog-header">Blog</h1>
+            <ul id="blog-list">  
+                <h3>Recents</h3>
+                {% for post in site.posts %}  
+                <li class="blog-item">  
+                {{ post.date | date: "%Y-%m-%d" }} -  
+                <a href="{{ post.url }}" class="blog-list-a-tag">{{ post.title }}</a>  
+                </li>  
+                {% endfor %}  
+                </ul>
+        </div>

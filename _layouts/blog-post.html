@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>hummusphere - {{ page.title }}</title>
+        <link rel="icon" type="image/x-icon" href="{{ '../assets/logo.jpg' | relative_url }}">
         <link rel="stylesheet" type="text/css" href="{{ '../styles/style.css' | relative_url }}" />
         <script src="{{ '../scripts/main.js' | relative_url }}"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,10 @@
         <div id="main-content">
             <h1 id="blog-header" style="width:100%; max-width: 700px;">{{ page.title }}</h1>
             <p id="blog-date">{{ page.date | date: "%Y-%m-%d" }}</p>
+            <div style="display:flex; flex-direction: row; align-items:center; max-width:700px;width:100%; margin:5px;">
+              <img src="{{ '../assets/logo.jpg' | relative_url }}" class="blog-profile" width="30px" height="30px">
+               <a href="/" class="blog-link" style="margin-left:7px;">Humdan</a> 
+            </div>
             {{ content }}
             <a class="back-to-blogs" href="/blog/">< Back to blogs</a>
         </div>

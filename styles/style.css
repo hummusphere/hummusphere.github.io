@@ -257,7 +257,7 @@ code {
 #blog-content {
     width: 100%;
     max-width: 700px;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     color: var(--text-color);
     display: flex;
     flex-direction: column;
@@ -298,6 +298,12 @@ code {
 
 .blog-important-text {
     margin: 5px;
+}
+
+.blog-profile:hover {
+    filter: brightness(80%);
+    cursor:pointer;
+    transition: 0.2s;
 }
 
 #blog-header,

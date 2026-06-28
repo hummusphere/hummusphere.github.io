@@ -1,4 +1,88 @@
-<footer  class="flex flex-row justify-center" style="gap: 100px;">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hummusphere - Blog</title>
+        <link rel="icon" type="image/x-icon" href="/assets/logo.jpg">
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <script src="/scripts/main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+    <div class="flex items-center justify-between wrap" style="width:100%; max-width:1200px; height: 70px; margin: auto;">
+       <a href="/" style="width: fit-content">
+        <div id="profile-container">
+            <img id="profile-picture" src="/assets/h.jpg" width="30" height="30"/>
+            <p id="hummusphere-title">Hummusphere</p>
+        </div>
+        </a>
+        <ul class="link-holder flex">
+            <a href="/">
+                <li class="links">Home</li>
+            </a>
+            <a href="/about/">
+                <li class="links">About</li>
+            </a>
+            <a href="/projects/">
+                <li class="links"">Projects</li>
+            </a>
+            <a href="/blog/">
+                <li class="active-link"">Blog</li>
+            </a>
+            <a id="toggle-theme">
+                <li class="links">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--text-color)" id="theme-icon" viewBox="0 0 16 16">
+                        <path
+                            d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"
+                        />
+                        <path
+                            d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"
+                        />
+                    </svg>
+                </li>
+            </a>
+        </ul>
+    </div>
+</header>
+                <div id="main-content" class="flex flex-col items-center">
+            <h1 id="blog-header">Blog</h1>
+            <ul id="blog-list">  
+                <h3>Recents</h3>
+                  
+                <li class="blog-item">  
+                2026-05-18 -  
+                <a href="/blog/the-vibe-coding-epidemic/" class="blog-list-a-tag">The Vibe Coding Epidemic</a>  
+                </li>  
+                  
+                <li class="blog-item">  
+                2026-04-26 -  
+                <a href="/blog/I-love-jekyll/" class="blog-list-a-tag">I Love Jekyll</a>  
+                </li>  
+                  
+                <li class="blog-item">  
+                2026-04-25 -  
+                <a href="/blog/are-video-games-worth-it/" class="blog-list-a-tag">Are Video Games Worth It?</a>  
+                </li>  
+                  
+                <li class="blog-item">  
+                2026-04-18 -  
+                <a href="/blog/new-blog-features/" class="blog-list-a-tag">New Blog Features</a>  
+                </li>  
+                  
+                <li class="blog-item">  
+                2026-04-14 -  
+                <a href="/blog/my-blogs-are-now-loaded-dynamically/" class="blog-list-a-tag">My Blogs Are Now Loaded Dynamically</a>  
+                </li>  
+                  
+                <li class="blog-item">  
+                2026-04-09 -  
+                <a href="/blog/first-test-blog-post/" class="blog-list-a-tag">First/Test Blog Post</a>  
+                </li>  
+                  
+                </ul>
+        </div>
+
+        <footer  class="flex flex-row justify-center" style="gap: 100px;">
     <div>
         <p style="font-size:25px;">hummusphere</p>
         <p> Its all about the hummus</p>
@@ -35,3 +119,5 @@
         <a class="footer-links flex items-center" style="gap: 0.5rem; height:40px;" href="/blog/"> Blog </a>
     </div>
 </footer>
+    </body>
+</html>

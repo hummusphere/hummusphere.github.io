@@ -9,14 +9,14 @@
     </head>
     <body>
         <header>
-    <div class="flex items-center justify-between wrap" style="width:100%; max-width:1200px; height: 70px; margin: auto;">
+    <div class="flex items-center justify-between wrap" style="width:100%; max-width:1200px; height: fit-content; margin: auto;">
        <a href="/" style="width: fit-content">
         <div id="profile-container">
             <img id="profile-picture" src="/assets/h.jpg" width="30" height="30"/>
             <p id="hummusphere-title">Hummusphere</p>
         </div>
         </a>
-        <ul class="link-holder flex">
+        <ul class="link-holder flex items-center" style="height:70px;">
             <a href="/">
                 <li class="links">Home</li>
             </a>
@@ -46,40 +46,40 @@
 </header>
                 <div id="main-content" class="flex flex-col items-center">
             <h1 id="blog-header">Blog</h1>
-            <ul id="blog-list">  
-                <h3>Recents</h3>
+            <h3 style="width:100%; max-width:950px;">Recents</h3>
+            <div id="blog-list">  
                   
-                <li class="blog-item">  
-                2026-05-18 -  
-                <a href="/blog/the-vibe-coding-epidemic/" class="blog-list-a-tag">The Vibe Coding Epidemic</a>  
-                </li>  
+                <a href="/blog/the-vibe-coding-epidemic/" class="blog-item">  
+                <p class="blog-list-a-tag">The Vibe Coding Epidemic</p>  
+                <p>2026-05-18</p>
+                </a>  
                   
-                <li class="blog-item">  
-                2026-04-26 -  
-                <a href="/blog/I-love-jekyll/" class="blog-list-a-tag">I Love Jekyll</a>  
-                </li>  
+                <a href="/blog/I-love-jekyll/" class="blog-item">  
+                <p class="blog-list-a-tag">I Love Jekyll</p>  
+                <p>2026-04-26</p>
+                </a>  
                   
-                <li class="blog-item">  
-                2026-04-25 -  
-                <a href="/blog/are-video-games-worth-it/" class="blog-list-a-tag">Are Video Games Worth It?</a>  
-                </li>  
+                <a href="/blog/are-video-games-worth-it/" class="blog-item">  
+                <p class="blog-list-a-tag">Are Video Games Worth It?</p>  
+                <p>2026-04-25</p>
+                </a>  
                   
-                <li class="blog-item">  
-                2026-04-18 -  
-                <a href="/blog/new-blog-features/" class="blog-list-a-tag">New Blog Features</a>  
-                </li>  
+                <a href="/blog/new-blog-features/" class="blog-item">  
+                <p class="blog-list-a-tag">New Blog Features</p>  
+                <p>2026-04-18</p>
+                </a>  
                   
-                <li class="blog-item">  
-                2026-04-14 -  
-                <a href="/blog/my-blogs-are-now-loaded-dynamically/" class="blog-list-a-tag">My Blogs Are Now Loaded Dynamically</a>  
-                </li>  
+                <a href="/blog/my-blogs-are-now-loaded-dynamically/" class="blog-item">  
+                <p class="blog-list-a-tag">My Blogs Are Now Loaded Dynamically</p>  
+                <p>2026-04-14</p>
+                </a>  
                   
-                <li class="blog-item">  
-                2026-04-09 -  
-                <a href="/blog/first-test-blog-post/" class="blog-list-a-tag">First/Test Blog Post</a>  
-                </li>  
+                <a href="/blog/first-test-blog-post/" class="blog-item">  
+                <p class="blog-list-a-tag">First/Test Blog Post</p>  
+                <p>2026-04-09</p>
+                </a>  
                   
-                </ul>
+            </div>
         </div>
 
         <footer  class="flex flex-row justify-center" style="gap: 100px;">

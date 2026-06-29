@@ -6,13 +6,13 @@ permalink: /blog/
 
         <div id="main-content" class="flex flex-col items-center">
             <h1 id="blog-header">Blog</h1>
-            <ul id="blog-list">  
-                <h3>Recents</h3>
+            <h3 style="width:100%; max-width:950px;">Recents</h3>
+            <div id="blog-list">  
                 {% for post in site.posts %}  
-                <li class="blog-item">  
-                {{ post.date | date: "%Y-%m-%d" }} -  
-                <a href="{{ post.url }}" class="blog-list-a-tag">{{ post.title }}</a>  
-                </li>  
+                <a href="{{ post.url }}" class="blog-item">  
+                <p class="blog-list-a-tag">{{ post.title }}</p>  
+                <p>{{ post.date | date: "%Y-%m-%d" }}</p>
+                </a>  
                 {% endfor %}  
-                </ul>
+            </div>
         </div>

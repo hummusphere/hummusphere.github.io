@@ -3,6 +3,7 @@ layout: blog-post
 title: "I Love Jekyll"
 date: 2026-04-26
 date-full: "April 26th, 2026"
+read-time: "4 min"
 permalink: /blog/I-love-jekyll/
 ---
 

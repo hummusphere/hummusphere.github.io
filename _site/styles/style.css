@@ -314,7 +314,6 @@ code {
 }
 
 .back-to-blogs {
-    font-weight: bold;
     transition: 0.2s;
     text-decoration: none;
     border: 1px solid var(--border-color);
@@ -324,7 +323,7 @@ code {
     box-shadow: var(--box-shadow);
 }
 
-.back-to-blogs:hover {
+.back-to-blogs:hover, .see-more:hover {
     cursor: pointer;
     border-color: var(--link-color);
     transform: translateY(-2px);
@@ -405,6 +404,36 @@ h3 {
     width: 15px;
     height: 15px;
     margin: auto 0px;
+}
+
+.blog-side-link {
+    margin: 5px 20px;
+    width: 260px;
+    height: fit-content;
+    border-radius:7px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.blog-side-link p {
+    margin: 5px;
+}
+
+.blog-side-link:hover {
+    color: var(--link-color);
+}
+
+.see-more {
+    transition: 0.2s;
+    text-decoration: none;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin:20px;
+    width:fit-content;
+    color: var(--text-color);
+    box-shadow: var(--box-shadow);
 }
 
 /* Projects */

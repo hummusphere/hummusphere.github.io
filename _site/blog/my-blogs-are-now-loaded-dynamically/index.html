@@ -45,13 +45,41 @@
     </div>
 </header>
         <div id="main-content" class="flex flex-col items-center">
-            <h1 id="blog-header" style="width:100%; max-width: 700px;">My Blogs Are Now Loaded Dynamically</h1>
-            <p id="blog-date">April 14th, 2026</p>
-            <div style="display:flex; flex-direction: row; align-items:center; max-width:700px;width:100%; margin:5px;">
-              <img src="/assets/logo.jpg" class="blog-profile" width="30px" height="30px">
-               <a href="/" class="blog-link" style="margin-left:7px;">Humdan</a> 
-            </div>
-            <div id="blog-content">
+            <div style="width: 100%; max-width:1400px; display:grid; grid-template-columns: 300px 1fr; gap: 2rem;">
+                <div class="flex flex-col items-center" style="border:1px solid var(--border-color); border-radius: 7px; height: fit-content; padding: 5px;">
+                    <h3> Recents Posts </h3>
+                      
+                    <a href="/blog/the-vibe-coding-epidemic/" class="blog-side-link">  
+                        <p class="blog-list-a-tag">The Vibe Coding Epidemic</p>  
+                        <p>May 18th, 2026</p>
+                    </a>  
+                      
+                    <a href="/blog/I-love-jekyll/" class="blog-side-link">  
+                        <p class="blog-list-a-tag">I Love Jekyll</p>  
+                        <p>April 26th, 2026</p>
+                    </a>  
+                      
+                    <a href="/blog/are-video-games-worth-it/" class="blog-side-link">  
+                        <p class="blog-list-a-tag">Are Video Games Worth It?</p>  
+                        <p>April 25th, 2026</p>
+                    </a>  
+                      
+                    <a href="/blog/new-blog-features/" class="blog-side-link">  
+                        <p class="blog-list-a-tag">New Blog Features</p>  
+                        <p>April 18th, 2026</p>
+                    </a>  
+                      
+                    <a href="/blog/" class="see-more"> See More -> </a>
+                </div>
+                <div>
+                    <div class="flex flex-col items-center" style="width:fit-content; font-size: 20px; line-height: 32px;">
+                        <h1 id="blog-header" style="width:100%; max-width: 700px;">My Blogs Are Now Loaded Dynamically</h1>
+                        <div style="display:flex; flex-direction: row; align-items:center; max-width:700px;width:100%; margin:5px; padding-bottom: 15px; border-bottom: 1px solid var(--border-color)">
+                            <img src="/assets/logo.jpg" class="blog-profile" width="30px" height="30px">
+                            <a href="/" class="blog-link" style="margin-left:7px;">Humdan</a> 
+                            <p id="blog-date"> - April 14th, 2026 - 1 min read </p>
+                        </div>
+                        <div id="blog-content">
 
 <p> All of these blog pages are now loaded dynamically with <code>Javascript</code>. This is the first time that I have used Js on this website. I can't lie, I created this post just to test out the Js. It's nice because now I can just use one singular json file and not have to worry about creating a <code>HTML</code> file for every post. There are still a few things that need to be worked out but it's fine for the most part. I'm pretty happy with how this turned out. The next step for me will be to add images, headers, and code blocks into the blog system. </p> 
 <p> Thank you for reading. </p> 
@@ -60,7 +88,10 @@
 <div class="blog-callout"> <strong> NOTE: </strong> This post has been updated. </div>
 </div>
 
-            <a class="back-to-blogs" href="/blog/">< Back to blogs</a>
+                        <a class="back-to-blogs" href="/blog/">< Back to blogs</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer  class="flex flex-row justify-center" style="gap: 100px;">
     <div>

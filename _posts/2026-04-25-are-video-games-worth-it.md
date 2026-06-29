@@ -3,6 +3,7 @@ layout: blog-post
 title: "Are Video Games Worth It?"
 date: 2026-04-25
 date-full: "April 25th, 2026"
+read-time: "6 min"
 permalink: /blog/are-video-games-worth-it/
 ---
 

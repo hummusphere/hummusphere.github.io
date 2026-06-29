@@ -10,14 +10,30 @@
     <body>
         {% include header.html %}
         <div id="main-content" class="flex flex-col items-center">
-            <h1 id="blog-header" style="width:100%; max-width: 700px;">{{ page.title }}</h1>
-            <p id="blog-date">{{ page.date-full }}</p>
-            <div style="display:flex; flex-direction: row; align-items:center; max-width:700px;width:100%; margin:5px;">
-              <img src="{{ '../assets/logo.jpg' | relative_url }}" class="blog-profile" width="30px" height="30px">
-               <a href="/" class="blog-link" style="margin-left:7px;">Humdan</a> 
+            <div style="width: 100%; max-width:1400px; display:grid; grid-template-columns: 300px 1fr; gap: 2rem;">
+                <div class="flex flex-col items-center" style="border:1px solid var(--border-color); border-radius: 7px; height: fit-content; padding: 5px;">
+                    <h3> Recents Posts </h3>
+                    {% for post in site.posts limit:4 %}  
+                    <a href="{{ post.url }}" class="blog-side-link">  
+                        <p class="blog-list-a-tag">{{ post.title }}</p>  
+                        <p>{{ post.date-full }}</p>
+                    </a>  
+                    {% endfor %}  
+                    <a href="/blog/" class="see-more"> See More -> </a>
+                </div>
+                <div>
+                    <div class="flex flex-col items-center" style="width:fit-content; font-size: 20px; line-height: 32px;">
+                        <h1 id="blog-header" style="width:100%; max-width: 700px;">{{ page.title }}</h1>
+                        <div style="display:flex; flex-direction: row; align-items:center; max-width:700px;width:100%; margin:5px; padding-bottom: 15px; border-bottom: 1px solid var(--border-color)">
+                            <img src="{{ '../assets/logo.jpg' | relative_url }}" class="blog-profile" width="30px" height="30px">
+                            <a href="/" class="blog-link" style="margin-left:7px;">Humdan</a> 
+                            <p id="blog-date"> - {{ page.date-full }} - {{ page.read-time }} read </p>
+                        </div>
+                        {{ content }}
+                        <a class="back-to-blogs" href="/blog/">< Back to blogs</a>
+                    </div>
+                </div>
             </div>
-            {{ content }}
-            <a class="back-to-blogs" href="/blog/">< Back to blogs</a>
         </div>
         {% include footer.html %}
     </body>

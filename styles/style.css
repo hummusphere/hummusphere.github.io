@@ -68,6 +68,11 @@ footer {
 .footer-links {
     color: var(--text-color);
     text-decoration: none;
+    transition:0.2S;
+}
+
+.footer-links:hover {
+    color: var(--link-color);
 }
 
 header {
@@ -127,6 +132,7 @@ header {
     height: 700px;
     border: 1px solid var(--border-color);
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 #right {
@@ -160,8 +166,24 @@ header div > a {
     width: 300px;
     height: 150px;
     margin: 20px;
+    text-decoration: none;
+    color: var(--text-color);
     border-radius: 15px;
     flex-direction: column;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    border-color: var(--link-color);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+}
+
+.project:hover .project-header{
+    color: var(--link-color);
+    border-bottom: solid 1px var(--link-color);
 }
 
 .project-header {
@@ -196,7 +218,7 @@ header div > a {
     margin:3px;
     color: var(--link-color);
     text-decoration: none;
-    background: rgb(243, 255, 242);
+    background: var(--blog-important-bg);
     border-radius: 7px;
     font-weight:bold;
     border: 1px rgb(151, 205, 136) solid;
@@ -209,7 +231,6 @@ header div > a {
 
 .links:hover {
     background-color: var(--header-link-hover);
-    color: var(--link-color);
     cursor: pointer;
 }
 
@@ -359,6 +380,21 @@ h3 {
     border: 1px solid var(--border-color);
     border-radius: 15px;
     margin: 15px;
+    transition:0.2s;
+    text-decoration:none;
+    color:var(--text-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.proj:hover {
+    border: 1px solid var(--link-color);
+    transform:translateY(-10px);
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+}
+
+.proj:hover .proj-header{
+    color: var(--link-color);
 }
 
 .proj-preview {

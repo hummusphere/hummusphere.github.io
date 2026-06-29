@@ -2,6 +2,7 @@
 layout: blog-post
 title: "The Vibe Coding Epidemic"
 date: 2026-05-18
+date-full: "May 18th, 2026"
 permalink: /blog/the-vibe-coding-epidemic/
 ---
 

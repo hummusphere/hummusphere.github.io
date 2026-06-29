@@ -2,6 +2,7 @@
 layout: blog-post
 title: "New Blog Features"
 date: 2026-04-18
+date-full: "April 18th, 2026"
 permalink: /blog/new-blog-features/
 ---
 <div id="blog-content">

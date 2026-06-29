@@ -2,11 +2,11 @@
 layout: blog-post
 title: "Are Video Games Worth It?"
 date: 2026-04-25
+date-full: "April 25th, 2026"
 permalink: /blog/are-video-games-worth-it/
 ---
 
 <div id="blog-content">
-<div class="blog-callout"> <strong> NOTE: </strong> Please excuse my bad writing skills. </div>
 <h3 class="blog-sub-header"> Let's be real ... </h3>
  
 <p> Are games worth it? I have been asking myself this question for a very long time. I have switched the "games" page on this website to <a class="blog-link" href="/projects/">"projects"</a> because I honestly don't think they are worth my time. Now, before you get mad at me, let me explain. </p>

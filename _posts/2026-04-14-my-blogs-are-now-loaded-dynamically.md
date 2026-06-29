@@ -2,6 +2,7 @@
 layout: blog-post
 title: "My Blogs Are Now Loaded Dynamically"
 date: 2026-04-14
+date-full: "April 14th, 2026"
 permalink: /blog/my-blogs-are-now-loaded-dynamically/
 ---
 <div id="blog-content">

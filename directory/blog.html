@@ -11,7 +11,7 @@ permalink: /blog/
                 {% for post in site.posts %}  
                 <a href="{{ post.url }}" class="blog-item">  
                 <p class="blog-list-a-tag">{{ post.title }}</p>  
-                <p>{{ post.date | date: "%Y-%m-%d" }}</p>
+                <p>{{ post.date-full }}</p>
                 </a>  
                 {% endfor %}  
             </div>

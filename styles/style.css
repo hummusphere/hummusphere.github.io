@@ -8,18 +8,24 @@
     --bg-color: white;
     --code-bg-color: #eaffe7;
     --blog-important-bg: #f5fef0;
+    --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    --box-shadow-hover: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    --header-shadow: #c3c7cb;
 }
 
 [page-theme="dark"] {
     --text-color: white;
     --header-text-color: white;
     --header-link-hover: rgb(30, 30, 30);
-    --bg-color: #0d1117;
+    --bg-color: #1a202c;
     --border-color: #3d444d;
-    --header-footer-color: #010409;
+    --header-footer-color: #1a202c;
     --link-color: rgb(96, 255, 96); 
     --code-bg-color: #1a2d1a;
     --blog-important-bg: #1a2d1a;
+    --box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    --box-shadow-hover: rgba(0, 0, 0, 0.7) 0px 4px 12px;
+    --header-shadow: rgba(0, 0, 0, 0.5);
 }
 
 .flex {display:flex;}
@@ -80,7 +86,7 @@ header {
     width: 100%;
     height: fit-content;
     color: var(--text-color);
-    box-shadow: var(--border-color) 0px 1px 4px;
+    box-shadow: var(--header-shadow) 0px 1px 4px;
     position: fixed;
     top: 0;
     z-index:1000;
@@ -132,7 +138,7 @@ header {
     height: 700px;
     border: 1px solid var(--border-color);
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: var(--box-shadow);
 }
 
 #right {
@@ -171,14 +177,14 @@ header div > a {
     border-radius: 15px;
     flex-direction: column;
     transition: 0.2s;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: var(--box-shadow);
 }
 
 .project:hover {
     transform: translateY(-10px);
     border-color: var(--link-color);
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    box-shadow: var(--box-shadow-hover);
 }
 
 .project:hover .project-header{
@@ -269,7 +275,7 @@ code {
     width: 300px;
     height: 100px;
     border: 1px solid var(--border-color);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: var(--box-shadow);
     border-radius:7px;
     transition: 0.2s;
     text-decoration: none;
@@ -284,7 +290,7 @@ code {
     border-color: var(--link-color);
     transform: translateY(-10px);
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    box-shadow: var(--box-shadow-hover);
 }
 
 .blog-item:hover .blog-list-a-tag {
@@ -315,7 +321,7 @@ code {
     border-radius: 5px;
     padding: 10px;
     color: var(--text-color);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: var(--box-shadow);
 }
 
 .back-to-blogs:hover {
@@ -412,14 +418,14 @@ h3 {
     transition:0.2s;
     text-decoration:none;
     color:var(--text-color);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: var(--box-shadow);
 }
 
 .proj:hover {
     border: 1px solid var(--link-color);
     transform:translateY(-10px);
     cursor:pointer;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    box-shadow: var(--box-shadow-hover);
 }
 
 .proj:hover .proj-header{

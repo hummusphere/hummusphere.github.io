@@ -5,11 +5,16 @@ date: 2026-04-18
 date-full: "April 18th, 2026"
 read-time: "1 min"
 permalink: /blog/new-blog-features/
+toc:
+  - title: "New Blog Features"
+    id: "top"
+  - title: "I can now use headers, pretty cool"
+    id: "I-Can-Now-Use-Headers-Pretty-Cool"
 ---
 <div id="blog-content">
 <div class="blog-callout"> I created this post to experiement and show off all the cool things I can do on this blog. Right now I am using a callout. </div>
 
-<h3 class="blog-sub-header"> I can now use headers, pretty cool</h3> 
+<h3 class="blog-sub-header" id="I-Can-Now-Use-Headers-Pretty-Cool"> I can now use headers, pretty cool</h3> 
 
 <p> I can use both <code>   inline text</code> and </p>
 

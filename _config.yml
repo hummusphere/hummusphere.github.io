@@ -1,1 +1,5 @@
 title: hummusphere
+
+collections:
+  projects:
+    output: true

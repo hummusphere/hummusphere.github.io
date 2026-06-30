@@ -3,6 +3,10 @@ layout: project
 title: Veraplus
 date: 2026-06-29
 permalink: /projects/veraplus/
+desc: "A Chrome web extension to enhance your Veracross experience. This project is no longer maintained. This project is licensed under the MIT License."
+img: "/assets/veraplus.png/"
+width: "200"
+height: "200"
 toc:
   - title: "VeraPlus"
     id: "top"

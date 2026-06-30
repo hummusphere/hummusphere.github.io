@@ -3,6 +3,10 @@ layout: project
 title: HummOS
 date: 2026-06-29
 permalink: /projects/hummos/
+desc: "My own custom operating system made from assembly."
+img: "https://github.com/hummusphere/HummOS/blob/main/preview.png?raw=true"
+width: "300"
+height: "200"
 toc:
   - title: "HummOS"
     id: "top"

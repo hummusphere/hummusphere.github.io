@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div id="main-content" class="flex flex-col items-center">
+    <h1 id="blog-header">Blog</h1>
+    <h3 style="width:100%; max-width:950px;">Recents</h3>
+    <div id="blog-list">  
+        {% for post in site.posts %}  
+        <a href="{{ post.url }}" class="blog-item">  
+        <p class="blog-list-a-tag">{{ post.title }}</p>  
+        <p>{{ post.date-full }}</p>
+        </a>  
+        {% endfor %}  
+    </div>
+</div>

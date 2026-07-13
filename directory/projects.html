@@ -1,0 +1,27 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+
+<div id="main-content" class="flex flex-col items-center">
+    <h1>My Projects</h1>
+    <p style="max-width:1030px; width:100%;"> All the documentation for my projects. </p>
+    <div id="proj-container" class="flex flex-row wrap justify-center">
+        {% for project in site.projects %} 
+        <a href="{{ project.url }}" class="proj flex flex-col">
+            <img
+                class="proj-preview"
+                src="{{ project.img }}"
+                width="{{ project.width }}"
+                height="{{ project.height }}"
+            />
+            <h3 class="proj-header">{{ project.title }}</h3>
+            <p class="proj-description">
+                {{ project.desc }}
+            </p>
+        </a>
+        {% endfor %}
+    </div>
+</div>

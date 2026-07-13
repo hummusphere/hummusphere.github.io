@@ -1,0 +1,7 @@
+title: hummusphere
+url: "https://hummusphere.org"
+baseurl: ""
+
+collections:
+  projects:
+    output: true

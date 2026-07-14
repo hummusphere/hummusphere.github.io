@@ -518,3 +518,11 @@ h3, h2 {
   font-size: 14px;
   box-shadow: var(--box-shadow);
 }
+
+.about-tag {
+  background: rgb(229, 247, 229);
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}

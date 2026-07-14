@@ -482,6 +482,7 @@ h3, h2 {
   color: white;
   height:fit-content;
   transition: 0.2s;
+  box-shadow: var(--box-shadow);
 }
 
 .about-me-projects-button:hover {

@@ -4,9 +4,9 @@
   --header-footer-color: rgba(255,255,255);
   --header-link-hover: rgb(242, 242, 242);
   --header-text-color: black;
-  --link-color: #2fa800;
+  --spring-green: #00a803;
   --bg-color: white;
-  --code-bg-color: #eaffe7;
+  --code-bg-color: #e7ffee;
   --blog-important-bg: #e8ffdb;
   --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   --box-shadow-hover: rgba(0, 0, 0, 0.3) 0px 4px 12px;
@@ -20,7 +20,7 @@
   --bg-color: #1a202c;
   --border-color: #3d444d;
   --header-footer-color: #1a202c;
-  --link-color: rgb(96, 255, 96);
+  --spring-green: rgb(96, 255, 96);
   --code-bg-color: #1a2d1a;
   --blog-important-bg: #1a2d1a;
   --box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
@@ -90,7 +90,7 @@ footer {
 }
 
 .footer-links:hover {
-  color: var(--link-color);
+  color: var(--spring-green);
 }
 
 header {
@@ -131,7 +131,7 @@ header {
 }
 
 .profile-links {
-  color: var(--link-color);
+  color: var(--spring-green);
   font-weight: bold;
   transition: color 0.2s;
   text-decoration: underline;
@@ -155,7 +155,6 @@ header {
 #right {
   width: 100%;
   max-width: 900px;
-  background: var(--bg-color);
   margin: 20px;
   border-radius: 15px;
   height: fit-content;
@@ -192,7 +191,7 @@ header {
 }
 
 .project:hover .project-header {
-  color: var(--link-color);
+  color: var(--spring-green);
 }
 
 .project-svg {
@@ -201,6 +200,7 @@ header {
     width:100px;
     height:30px;
     margin:10px;
+    border: 1px solid rgb(190, 229, 183);
     border-radius:10px;
     color: rgb(21, 126, 1);
 }
@@ -238,9 +238,10 @@ header {
   padding: 11px;
   height: 20px;
   margin: 3px;
-  color: var(--link-color);
+  color: var(--spring-green);
   text-decoration: none;
-  background: var(--blog-important-bg);
+  background: var(--code-bg-color);
+  border: 1px solid var(--spring-green);
   border-radius: 7px;
   font-weight: bold;
 }
@@ -264,7 +265,7 @@ code {
   font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 0.9em;
   background: var(--code-bg-color);
-  color: var(--link-color);
+  color: var(--spring-green);
   margin: 0px 2px;
   padding: 0.2em 0.4em;
   border-radius: 4px;
@@ -300,7 +301,7 @@ code {
 }
 
 .blog-item:hover .blog-list-a-tag {
-  color: var(--link-color);
+  color: var(--spring-green);
 }
 
 .blog-list-a-tag {
@@ -329,7 +330,7 @@ code {
 
 .back-to-blogs:hover, .see-more:hover {
   cursor: pointer;
-  border-color: var(--link-color);
+  border-color: var(--spring-green);
   transform: translateY(-2px);
 }
 
@@ -345,7 +346,7 @@ code {
 
 .blog-important {
   background-color: var(--blog-important-bg);
-  border: 1px solid var(--link-color);
+  border: 1px solid var(--spring-green);
   padding: 10px;
   border-radius: 5px;
   margin: 10px 0px;
@@ -353,7 +354,7 @@ code {
 
 .blog-important-title {
   font-weight: bold;
-  color: var(--link-color);
+  color: var(--spring-green);
   margin: 5px;
   margin-bottom: 20px;
 }
@@ -379,7 +380,7 @@ code {
 
 .blog-link {
   font-weight: bold;
-  color: var(--link-color);
+  color: var(--spring-green);
   transition: 0.2s;
   text-align: center;
   text-decoration: underline;
@@ -390,7 +391,7 @@ code {
 }
 
 .blog-callout {
-  border-left: 4px solid var(--link-color);
+  border-left: 4px solid var(--spring-green);
   padding-left: 12px;
   margin: 10px 0px;
 }
@@ -416,7 +417,7 @@ code {
 }
 
 .blog-side-link:hover {
-  color: var(--link-color);
+  color: var(--spring-green);
 }
 
 .see-more {
@@ -445,14 +446,14 @@ code {
 }
 
 .proj:hover, .blog-item:hover, .project:hover  {
-  border-color: var(--link-color);
+  border-color: var(--spring-green);
   transform: translateY(-10px);
   cursor: pointer;
   box-shadow: var(--box-shadow-hover);
 }
 
 .proj:hover .proj-header {
-  color: var(--link-color);
+  color: var(--spring-green);
 }
 
 .proj-preview {
@@ -504,7 +505,7 @@ h3, h2 {
 
 .about-me-github-button:hover {
   cursor: pointer;
-  border-color: var(--link-color);
+  border-color: var(--spring-green);
   transform: translateY(-5px);
 }
 
@@ -544,14 +545,14 @@ h3, h2 {
   left:0;
   right:0;
   height:1px;
-  background:var(--link-color);
+  background:var(--spring-green);
   z-index:0;
 }
 
 .about-timeline-dot {
   width: 10px;
   height: 10px;
-  background: var(--link-color);
+  background: var(--spring-green);
   border-radius: 50%;
   margin: 6px 30px 15px;
 }

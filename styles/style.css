@@ -7,6 +7,7 @@
   --spring-green: #00a832;
   --seafoam-green: #e7ffee;
   --sage-green: #bee5b7;
+  --olive-green: #e5f7e5;
   --bg-color: white;
   --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   --box-shadow-hover: rgba(0, 0, 0, 0.3) 0px 4px 12px;
@@ -21,9 +22,10 @@
   --border-color: #3d4d3d;
   --header-footer-color: #1a2c23;
   --spring-green: rgb(96, 255, 96);
-  --seafoam-green: #1a2d1a;
+  --seafoam-green: #284530;
   --sage-green: #257118;
-  --box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+  --olive-green: #ergb(61, 128, 61)
+  --box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
   --box-shadow-hover: rgba(0, 0, 0, 0.7) 0px 4px 12px;
   --header-shadow: rgba(0, 0, 0, 0.5);
 }
@@ -98,6 +100,7 @@ header {
   width: 100%;
   height: fit-content;
   color: var(--text-color);
+  border-bottom: 1px solid var(--border-color);
   box-shadow: var(--header-shadow) 0px 1px 4px;
   position: sticky;
   top: 0;
@@ -522,7 +525,7 @@ h3, h2 {
 }
 
 .about-tag {
-  background: rgb(229, 247, 229);
+  background: var(--olive-green);
   width: fit-content;
   padding: 5px;
   border-radius: 5px;

@@ -4,10 +4,10 @@
   --header-footer-color: rgba(255,255,255);
   --header-link-hover: rgb(242, 242, 242);
   --header-text-color: black;
-  --spring-green: #00a803;
+  --spring-green: #00a832;
+  --seafoam-green: #e7ffee;
+  --sage-green: #bee5b7;
   --bg-color: white;
-  --code-bg-color: #e7ffee;
-  --blog-important-bg: #e8ffdb;
   --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   --box-shadow-hover: rgba(0, 0, 0, 0.3) 0px 4px 12px;
   --header-shadow: #c3c7cb;
@@ -17,12 +17,12 @@
   --text-color: white;
   --header-text-color: white;
   --header-link-hover: rgb(30, 30, 30);
-  --bg-color: #1a202c;
-  --border-color: #3d444d;
-  --header-footer-color: #1a202c;
+  --bg-color: #1a2c23;
+  --border-color: #3d4d3d;
+  --header-footer-color: #1a2c23;
   --spring-green: rgb(96, 255, 96);
-  --code-bg-color: #1a2d1a;
-  --blog-important-bg: #1a2d1a;
+  --seafoam-green: #1a2d1a;
+  --sage-green: #257118;
   --box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
   --box-shadow-hover: rgba(0, 0, 0, 0.7) 0px 4px 12px;
   --header-shadow: rgba(0, 0, 0, 0.5);
@@ -195,20 +195,20 @@ header {
 }
 
 .project-svg {
-    background: rgb(226,244,224);
+    background: var(--seafoam-green);
     padding:20px;
     width:100px;
     height:30px;
     margin:10px;
-    border: 1px solid rgb(190, 229, 183);
+    border: 1px solid var(--sage-green);
     border-radius:10px;
-    color: rgb(21, 126, 1);
+    color: var(--spring-green);
 }
 
 .project-tag {
-    color: rgb(21, 126, 1); 
-    border: 1px solid rgb(190, 229, 183);
-    background: rgb(226,244,224); 
+    color: var(--spring-green); 
+    border: 1px solid var(--sage-green);
+    background: var(--seafoam-green); 
     padding:5px; 
     border-radius: 5px;
 }
@@ -240,7 +240,7 @@ header {
   margin: 3px;
   color: var(--spring-green);
   text-decoration: none;
-  background: var(--code-bg-color);
+  background: var(--seafoam-green);
   border: 1px solid var(--spring-green);
   border-radius: 7px;
   font-weight: bold;
@@ -264,7 +264,7 @@ header {
 code {
   font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
   font-size: 0.9em;
-  background: var(--code-bg-color);
+  background: var(--seafoam-green);
   color: var(--spring-green);
   margin: 0px 2px;
   padding: 0.2em 0.4em;
@@ -345,7 +345,7 @@ code {
 }
 
 .blog-important {
-  background-color: var(--blog-important-bg);
+  background-color: var(--seafoam-green);
   border: 1px solid var(--spring-green);
   padding: 10px;
   border-radius: 5px;
@@ -527,6 +527,7 @@ h3, h2 {
   padding: 5px;
   border-radius: 5px;
   margin: 5px;
+  border: 1px solid var(--sage-green);
 }
 
 .about-timeline {

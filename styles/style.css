@@ -452,8 +452,8 @@ code {
 
 /* Projects */
 .proj {
-  width: 500px;
-  height: 400px;
+  width: 550px;
+  height: 250px;
   border: 1px solid var(--border-color);
   border-radius: 15px;
   margin: 15px;

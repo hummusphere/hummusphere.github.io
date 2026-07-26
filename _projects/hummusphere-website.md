@@ -5,8 +5,8 @@ date: 2026-06-29
 permalink: /projects/hummusphere-website/
 desc: "JS, CSS, HTML, and the JEKYLL config that I wrote to make the front-end of this website."
 img: "https://miro.medium.com/1*kwN_Y8GNf2ZB6sNQxngVyw@2x.jpeg"
-width: "300"
-height: "200"
+width: "220"
+height: "150"
 toc:
   - title: "Hummusphere Website"
     id: "top"

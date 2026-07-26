@@ -8,6 +8,7 @@
   --seafoam-green: #e7ffee;
   --sage-green: #bee5b7;
   --olive-green: #e5f7e5;
+  --faint-gray: #eaf2ea;
   --bg-color: white;
   --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   --box-shadow-hover: rgba(0, 0, 0, 0.3) 0px 4px 12px;
@@ -24,7 +25,8 @@
   --spring-green: rgb(96, 255, 96);
   --seafoam-green: #284530;
   --sage-green: #257118;
-  --olive-green: #ergb(61, 128, 61)
+  --olive-green: rgb(26, 53, 26);
+  --faint-gray: #233a24;
   --box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
   --box-shadow-hover: rgba(0, 0, 0, 0.7) 0px 4px 12px;
   --header-shadow: rgba(0, 0, 0, 0.5);
@@ -186,11 +188,12 @@ header {
   text-decoration: none;
   color: var(--text-color);
   border-radius: 15px;
-  flex-direction: column;
   transition: 0.2s;  
   border: 1px solid var(--border-color);
   font-size: 14px;
   box-shadow: var(--box-shadow);
+  display: grid;
+  grid-template-rows: 140px 10px 50px;
 }
 
 .project:hover .project-header {
@@ -200,7 +203,7 @@ header {
 .project-svg {
     background: var(--seafoam-green);
     padding:20px;
-    width:100px;
+    width:30px;
     height:30px;
     margin:10px;
     border: 1px solid var(--sage-green);
@@ -214,6 +217,7 @@ header {
     background: var(--seafoam-green); 
     padding:5px; 
     border-radius: 5px;
+    height: fit-content;
 }
 
 .project-header {
@@ -331,7 +335,7 @@ code {
   box-shadow: var(--box-shadow);
 }
 
-.back-to-blogs:hover, .see-more:hover {
+.back-to-blogs:hover, .see-more:hover, .blog-share:hover {
   cursor: pointer;
   border-color: var(--spring-green);
   transform: translateY(-2px);
@@ -403,6 +407,17 @@ code {
   width: 15px;
   height: 15px;
   margin: auto 0px;
+}
+
+.blog-share {
+  transition: 0.2s;
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  color: var(--text-color);
+  box-shadow: var(--box-shadow);
 }
 
 .blog-side-link {
@@ -525,7 +540,7 @@ h3, h2 {
 }
 
 .about-tag {
-  background: var(--olive-green);
+  background: var(--seafoam-green);
   width: fit-content;
   padding: 5px;
   border-radius: 5px;

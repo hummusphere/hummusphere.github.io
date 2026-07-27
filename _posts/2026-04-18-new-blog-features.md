@@ -2,7 +2,7 @@
 layout: blog-post
 title: "New Blog Features"
 date: 2026-04-18
-date-full: "April 18th, 2026"
+date-full: "April 18, 2026"
 read-time: "1 min"
 permalink: /blog/new-blog-features/
 toc:

@@ -2,7 +2,7 @@
 layout: blog-post
 title: "My Blogs Are Now Loaded Dynamically"
 date: 2026-04-14
-date-full: "April 14th, 2026"
+date-full: "April 14, 2026"
 read-time: "1 min"
 permalink: /blog/my-blogs-are-now-loaded-dynamically/
 toc:

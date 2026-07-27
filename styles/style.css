@@ -18,7 +18,7 @@
 [page-theme="dark"] {
   --text-color: white;
   --header-text-color: white;
-  --header-link-hover: rgb(30, 30, 30);
+  --header-link-hover: rgb(0, 61, 11);
   --bg-color: #1a2c23;
   --border-color: #3d4d3d;
   --header-footer-color: #1a2c23;
@@ -450,12 +450,33 @@ code {
   color: var(--text-color);
 }
 
+.blog-side-link-active {
+  background: var(--seafoam-green);
+  border-left: 4px solid var(--spring-green);
+  position: relative;
+  right: 4px;
+}
+
+
 .blog-side-link p {
   margin: 5px;
 }
 
 .blog-side-link:hover {
   color: var(--spring-green);
+}
+
+.blog-next {
+  transition: 0.2s;
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  height: 75px;
+  margin-top:20px;
+  color: var(--text-color);
+  box-shadow: var(--box-shadow);
 }
 
 .see-more {
@@ -483,7 +504,7 @@ code {
   box-shadow: var(--box-shadow);
 }
 
-.proj:hover, .blog-item:hover, .project:hover  {
+.proj:hover, .blog-item:hover, .project:hover, .blog-next:hover  {
   border-color: var(--spring-green);
   transform: translateY(-10px);
   cursor: pointer;

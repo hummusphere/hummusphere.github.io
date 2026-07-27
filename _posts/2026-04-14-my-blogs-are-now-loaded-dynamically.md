@@ -5,6 +5,9 @@ date: 2026-04-14
 date-full: "April 14, 2026"
 read-time: "1 min"
 permalink: /blog/my-blogs-are-now-loaded-dynamically/
+tag: "Development"
+topics:
+  - "JavaScript"
 toc:
   - title: "My Blogs Are Now Loaded Dynamically"
     id: "top"

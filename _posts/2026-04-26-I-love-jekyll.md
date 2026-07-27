@@ -5,6 +5,10 @@ date: 2026-04-26
 date-full: "April 26, 2026"
 read-time: "4 min"
 permalink: /blog/I-love-jekyll/
+tag: "Development"
+topics:
+  - "Jekyll"
+  - "Github Pages"
 toc:
   - title: "I Love Jekyll"
     id: "top"

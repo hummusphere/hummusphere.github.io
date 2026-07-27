@@ -5,6 +5,9 @@ date: 2026-04-09
 date-full: "April 9, 2026"
 read-time: "2 min"
 permalink: /blog/first-test-blog-post/
+tag: "Development"
+topics:
+  - "Testing"
 toc:
   - title: "First/Test Blog Post"
     id: "top"

@@ -1,27 +1,27 @@
 :root {
   --text-color: rgb(50, 50, 50);
+  --header-link-hover: rgb(242, 242, 242);
+  --bg-color: white;
   --border-color: #c3c7cb;
   --header-footer-color: rgba(255,255,255);
-  --header-link-hover: rgb(242, 242, 242);
-  --header-text-color: black;
+  --black: #000000;
   --spring-green: #00a832;
   --seafoam-green: #e7ffee;
   --sage-green: #bee5b7;
   --olive-green: #e5f7e5;
   --faint-gray: #eaf2ea;
-  --bg-color: white;
   --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   --box-shadow-hover: rgba(0, 0, 0, 0.3) 0px 4px 12px;
   --header-shadow: #c3c7cb;
 }
 
 [page-theme="dark"] {
-  --text-color: white;
-  --header-text-color: white;
+  --text-color: rgb(255, 255, 255);
   --header-link-hover: rgb(0, 61, 11);
   --bg-color: #1a2c23;
   --border-color: #3d4d3d;
   --header-footer-color: #1a2c23;
+  --black: #ffffff;
   --spring-green: rgb(96, 255, 96);
   --seafoam-green: #284530;
   --sage-green: #257118;
@@ -58,6 +58,10 @@
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
 }
 
 html {
@@ -154,7 +158,7 @@ header {
 }
 
 .profile-links:hover {
-  color: var(--header-text-color);
+  color: var(--black);
 }
 
 #left {
@@ -184,7 +188,7 @@ header {
 
 #hummusphere-title {
   margin: 0px;
-  color: var(--header-text-color);
+  color: var(--black);
   text-decoration: none !important;
 }
 
@@ -234,7 +238,7 @@ header {
 .project-header {
   padding-top: 10px;
   margin: 5px;
-  color: var(--header-text-color);
+  color: var(--black);
   cursor: pointer;
 }
 
@@ -318,13 +322,14 @@ code {
   margin: 5px;
 }
 
-.blog-item:hover .blog-list-a-tag {
+.blog-item:hover {
   color: var(--spring-green);
 }
 
 .blog-list-a-tag {
   font-weight: bold;
   margin: 5px;
+  transition: 0.2s;
 }
 
 #blog-content {
@@ -402,7 +407,7 @@ code {
 
 .blog-sub-header {
   margin: 10px 0px;
-  color: var(--header-text-color);
+  color: var(--black);
 }
 
 .blog-link {
@@ -414,7 +419,7 @@ code {
 }
 
 .blog-link:hover, .blog-external:hover, .back-to-blogs:hover, #blog-header, h1, h3 {
-  color: var(--header-text-color);
+  color: var(--black);
 }
 
 .blog-callout {
@@ -443,6 +448,7 @@ code {
 .blog-side-link {
   margin: 5px 20px;
   height: fit-content;
+  width:248px;
   border-radius: 7px;
   transition: 0.2s;
   text-decoration: none;
@@ -450,6 +456,8 @@ code {
 }
 
 .blog-side-link-active {
+  width:248px;
+  color: var(--spring-green);
   background: var(--seafoam-green);
   border-left: 4px solid var(--spring-green);
   position: relative;
@@ -461,7 +469,7 @@ code {
   margin: 5px;
 }
 
-.blog-side-link:hover {
+.blog-side-link:hover, .blog-side-link:hover .blog-list-a-tag {
   color: var(--spring-green);
 }
 
@@ -484,7 +492,7 @@ code {
   border: 1px solid var(--border-color);
   border-radius: 5px;
   padding: 10px;
-  margin: 20px;
+  margin: 10px 10px 10px 20px;
   width: fit-content;
   color: var(--text-color);
   box-shadow: var(--box-shadow);

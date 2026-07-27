@@ -347,8 +347,8 @@ code {
 .back-to-blogs {
   transition: 0.2s;
   text-decoration: none;
-  width: 100%;
-  max-width: 700px;
+  width: fit-content;
+  margin-right:auto;
   margin-bottom: 30px;
   margin-top: 10px;
   color: var(--spring-green);
@@ -442,7 +442,6 @@ code {
 
 .blog-side-link {
   margin: 5px 20px;
-  width: 260px;
   height: fit-content;
   border-radius: 7px;
   transition: 0.2s;
@@ -629,6 +628,14 @@ h3, h2 {
   max-width: 150px;
 
 }
+
+.table-of-contents-item {
+  position:relative;
+  display:flex; 
+  width:260px; 
+  margin:auto;
+}
+
 
  @media (max-width: 1000px) {
   #blog-page {

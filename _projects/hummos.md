@@ -7,6 +7,7 @@ desc: "My own custom operating system made from assembly. Similar to MS DOS with
 img: "https://github.com/hummusphere/HummOS/blob/main/preview.png?raw=true"
 width: "220"
 height: "150"
+github_url: "https://github.com/hummusphere/HummOS"
 toc:
   - title: "HummOS"
     id: "top"

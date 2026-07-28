@@ -19,6 +19,7 @@ permalink: /projects/
                     <img class="proj-preview" src="{{ project.img }}" width="{{ project.width }}" height="{{ project.height }}"/>
                 </div>
                 <div style="margin-top: 15px;">
+                    <p style="margin: 10px; color:var(--spring-green); background:var(--seafoam-green); width: fit-content; border-radius:15px; padding:2px;"> {{ project.tag }} </p>
                     <h3 class="proj-header">{{ project.title }}</h3>
                     <p class="proj-description">
                         {{ project.desc }}
@@ -27,6 +28,11 @@ permalink: /projects/
             </div>
             <div class="flex flex-row justify-between items-center">
                 <p style="color: var(--spring-green); margin:5px; margin-left: 20px; height: fit-content;"> View Documentation -></p>
+                <div style="gap: 10px; margin:10px;" class="flex flex-row items-center">
+                        {% for topic in project.topics %}
+                            <p style="border: 1px solid var(--sage-green); font-size:12px; margin: 0px; background: var(--seafoam-green); color: var(--spring-green); padding: 5px; line-height: 1.2; border-radius:10px;"> {{ topic }} </p>
+                        {% endfor %}
+                </div>
             </div>
         </a>
         {% endfor %}
@@ -37,9 +43,17 @@ permalink: /projects/
                 <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"></path>
             </svg>
         </div>
-        <div>
-            <h4 style="color: var(--black); margin-bottom:0px;">I'm always working on something new.</h4>
-            <p> Check back later for more projects. </p>
+        <div class="flex flex-row justify-between items-center">
+            <div>
+                <h4 style="color: var(--black); margin-bottom:0px;">I'm always working on something new.</h4>
+                <p style="margin-top: 10px;"> Check back later for more projects. </p>
+            </div>
+            <a class="flex flex-row items-center lets-connect">
+                <p style="margin: 10px;">Lets Connect</p>
+                <svg style="margin-right: 10px; xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                    <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                </svg>
+            </a>
         </div>
     </div>
 </div>

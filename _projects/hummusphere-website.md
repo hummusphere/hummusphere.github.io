@@ -8,6 +8,11 @@ img: "https://miro.medium.com/1*kwN_Y8GNf2ZB6sNQxngVyw@2x.jpeg"
 width: "220"
 height: "150"
 github_url: "https://github.com/hummusphere/hummusphere.github.io"
+tag: "Web Development"
+topics:
+  - "HTML"
+  - "CSS"
+  - "JavaScript"
 toc:
   - title: "Hummusphere Website"
     id: "top"

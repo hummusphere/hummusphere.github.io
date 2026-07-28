@@ -8,6 +8,11 @@ img: "https://github.com/hummusphere/HummOS/blob/main/preview.png?raw=true"
 width: "220"
 height: "150"
 github_url: "https://github.com/hummusphere/HummOS"
+tag: "Operating Systems"
+topics:
+  - "Assembly"
+  - "x86"
+  - "OS Dev"
 toc:
   - title: "HummOS"
     id: "top"

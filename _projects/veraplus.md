@@ -8,6 +8,11 @@ img: "/assets/veraplus.png"
 width: "150"
 height: "150"
 github_url: "https://github.com/hummusphere/Veraplus"
+tag: "Web Extensions"
+topics:
+  - "Chrome API"
+  - "JavaScript"
+  - "HTML"
 toc:
   - title: "VeraPlus"
     id: "top"

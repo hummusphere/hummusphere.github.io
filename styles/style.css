@@ -359,7 +359,7 @@ code {
   color: var(--spring-green);
 }
 
-.back-to-blogs:hover, .see-more:hover, .blog-share:hover {
+.back-to-blogs:hover, .see-more:hover, .blog-share:hover, .lets-connect:hover {
   cursor: pointer;
   border-color: var(--spring-green);
   transform: translateY(-2px);
@@ -642,6 +642,17 @@ h3, h2 {
   display:flex; 
   width:260px; 
   margin:auto;
+}
+
+.lets-connect {
+  padding: 5px; 
+  margin-right: 20px; 
+  width: fit-content; 
+  height:fit-content; 
+  border-radius: 5px; 
+  border: 1px solid var(--border-color); 
+  box-shadow: var(--box-shadow);
+  transition: 0.2s;
 }
 
 

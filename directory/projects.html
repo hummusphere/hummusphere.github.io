@@ -27,10 +27,10 @@ permalink: /projects/
                 </div>
             </div>
             <div class="flex flex-row justify-between items-center">
-                <p style="color: var(--spring-green); margin:5px; margin-left: 20px; height: fit-content;"> View Documentation -></p>
+                <p style="margin:5px; margin-left: 20px; height: fit-content;"> View Documentation -></p>
                 <div style="gap: 10px; margin:10px;" class="flex flex-row items-center">
                         {% for topic in project.topics %}
-                            <p style="border: 1px solid var(--sage-green); font-size:12px; margin: 0px; background: var(--seafoam-green); color: var(--spring-green); padding: 5px; line-height: 1.2; border-radius:10px;"> {{ topic }} </p>
+                            <p style="border: 1px solid var(--border-color); font-size: 12px; margin: 0px; color: var(--text-color); padding: 5px; line-height: 1.2; border-radius: 10px; box-shadow: var(--box-shadow);"> {{ topic }} </p>
                         {% endfor %}
                 </div>
             </div>

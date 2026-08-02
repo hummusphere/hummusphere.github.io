@@ -4,7 +4,7 @@ title: Veraplus
 date: 2026-06-29
 permalink: /projects/veraplus/
 desc: "A Chrome web extension to enhance your Veracross experience. This project is no longer maintained. This project is licensed under the MIT License."
-img: "/assets/veraplus.png"
+img: "/static/img/veraplus.png"
 width: "150"
 height: "150"
 github_url: "https://github.com/hummusphere/Veraplus"

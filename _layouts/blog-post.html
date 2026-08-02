@@ -6,10 +6,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
         <title>Hummusphere - {{ page.title }}</title>
-        <link rel="icon" type="image/x-icon" href="{{ '../assets/logo.jpg' | relative_url }}">
-        <link rel="stylesheet" type="text/css" href="{{ '../styles/style.css' | relative_url }}" />
-        <script src="{{ '../scripts/main.js' | relative_url }}"></script>
-        <script src="{{ '../scripts/blog-post.js' | relative_url }}"></script>
+        <link rel="icon" type="image/x-icon" href="{{ '../static/img/logo.jpg' | relative_url }}">
+        <link rel="stylesheet" type="text/css" href="{{ '../static/css/style.css' | relative_url }}" />
+        <script src="{{ '../static/js/main.js' | relative_url }}"></script>
+        <script src="{{ '../static/js/blog-post.js' | relative_url }}"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -100,7 +100,7 @@
                         </div>
                         <h1 id="blog-header" style="line-height: 1.2; width:100%; max-width: 700px;">{{ page.title }}</h1>
                         <div class="flex flex-row items-center wrap" style="max-width:700px;width:100%; margin:5px; padding-bottom: 15px; border-bottom: 3px solid var(--faint-gray)">
-                            <img src="{{ '../assets/logo.jpg' | relative_url }}" class="blog-profile" width="30px" height="30px">
+                            <img src="{{ '../static/img/logo.jpg' | relative_url }}" class="blog-profile" width="30px" height="30px">
                             <a href="/" class="blog-link" style="margin-left:7px;">Humdan</a> 
                             <p id="blog-date"> - {{ page.date-full }} - {{ page.read-time }} read - </p>
                             <p style="margin: 0px; background: var(--seafoam-green); color: var(--spring-green); padding: 5px; line-height: 1.2; border-radius:10px;"> {{ page.tag }} </p>

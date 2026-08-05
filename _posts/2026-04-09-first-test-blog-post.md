@@ -21,7 +21,7 @@ toc:
 
 <h3 class="blog-sub-header" id="Why-I-Created-This-Website"> Why I created this website </h3> 
 
-<p> I'm not really sure how to manage a website but I guess I’ll learn as I go. I created this website because I got rejected from a lot of colleges and I realized that I need a place to display my work and develop my website making skills. I’m also going to work on this <a class="blog-link" href="/blog/">blog</a> to try and improve my writing skills. I have never really been a great writer so maybe this blog can change that. I’ll update this blog when I feel like something interesting has happened. </p>  
+<p> I'm not really sure how to manage a website but I guess I’ll learn as I go. I created this website because I got rejected from a few jobs and I realized that I need a place to display my work and develop my website making skills. I’m also going to work on this <a class="blog-link" href="/blog/">blog</a> to try and improve my writing skills. I have never really been a great writer so maybe this blog can change that. I’ll update this blog when I feel like something interesting has happened. </p>  
 
 <h3 class="blog-sub-header" id="Whats-Next"> Whats next </h3> 
 
